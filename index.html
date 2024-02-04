@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Nuestra Historia de Amor</title>
+    <link rel="shortcut icon"
+    type="image/png" href="assets/img/favicon.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS de Bootstrap 5.3-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/d826140664.js" crossorigin="anonymous"></script>
+
+    <!--Iconos bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!--Mi Estilo-->
+    <link  rel="stylesheet"
+    href="assets/css/style.css">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand text-light" href="#inicio"> <i class="fa-solid fa-heart fa-beat-fade fa-lg heart"></i> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-light fw-bold" aria-current="page" href="#timeline">Nuestra Historia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light fw-bold" href="#anecdotas">Anécdotas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light fw-bold" href="#planes">Sueños y Planes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light fw-bold" href="#leyenda">Leyenda</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
+            <li class="nav-item">
+          <span class="navbar-text d-flex">
+            <p>MAVM <i class="bi bi-arrow-through-heart-fill"></i> GPEOG</p>
+          </span>
+          </li>
+        </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header id="inicio" class="banner text-light text-center py-5 mt-5">
+      <div class="container">
+        <h1 class="display-1 fw-bold my-5">Nuestra Historia de Amor</h1>
+        <p class="fs-3 my-5">¿Qué probabilidad habría de que nosotros,
+          habiendo nacido en países distintos, en algún punto de nuestras vidas
+          nos encontráramos? La verdad es que por más que busqué no encontré nada XD.</p>
+        <p class="fs-3 my-5">Por lo mismo prefiero creer que estábamos destinados
+          a conocernos. Cada día me convenzo más de que somos almas gemelas,
+          que independiente de nuestros planes, de lo que hiciéramos, era inevitable
+          cruzarnos en la vida del otro, pasara lo que pasara tú y yo nos conoceríamos
+          y nos enamoraríamos perdidamente.</p>
+        <p class="fs-3 my-5">Espero que estos meses solo sean el inicio de esta
+          hermosa historia de amor, que sea eterna. No me importa a donde me lleve la vida,
+          siempre que sea contigo de mi mano, porque gracias a ti he descubierto el amor
+          más lindo de todos, y como un colonizador que descubre el paraíso,
+          quiero quedarme a vivir en este amor por el resto de mi vida.</p>
+      </div>
+    </header>
+
+    <section id="menu" class="container-fluid lila py-5">
+      <div class="row text-center fw-bold fs-2">
+        <div class="col-md-4">
+          <img src="assets/img/our.png" class="tamano img-fluid img-thumbnail border-black" alt="Nuestra Historia" >
+          <a href="#timeline" class="btn btn-primary btn-lg my-2 text-center fw-bold fs-4" >Nuestra Historia</a>
+        </div>
+        <div class="col-md-4">
+          <img src="assets/img/child.png" class="tamano img-fluid img-thumbnail border-black" alt="Anécdotas">
+          <a href="#anecdotas" class="btn btn-primary btn-lg my-2 text-center fw-bold fs-4">Anécdotas</a>
+        </div>
+        <div class="col-md-4">
+          <img src="assets/img/book.png" class="tamano img-fluid img-thumbnail border-black" alt="Sueños y Planes">
+          <a href="#planes" class="btn btn-primary btn-lg my-2 text-center fw-bold fs-4">Sueños y Planes</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="timeline" class="py-5">
+      <h2 class="display-4 text-center fw-bold my-4">Nuestra Historia</h2>
+      <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1tBtNfrQRizA45QfFWNnmvoUyoZ3NXls6cjSFtoMNnIw&font=Dancing-Ledger&lang=es&timenav_position=top&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+    </section>
+
+    <section id="anecdotas" class="bg-info bg-opacity-50 container-fluid py-5">
+      <h2 class="display-4 text-center fw-bold my-4">Anécdotas</h2>
+
+<!--Inicio Carousel-->
+      <div id="blogCarousel" class="carousel slide container-fluid p-5 mb-5">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#blogCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#blogCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#blogCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner text-center my-5">
+          <div class="carousel-item active">
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="card mx-4" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="assets/img/1.Secuestro_XD.png" class="img-fluid my-4 rounded" alt="Secuestro_XD">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold fs-4">Secuestro XD</h5>
+                      <p class="card-text fs-5">Llevabamos poco tiempo hablando,
+                        yo amablemente te invité a visitarme y tu respuesta fue
+                        "Bueno, pero porfi no me secuestres ni me mates". Me causó tanta risa.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mx-4" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="assets/img/2.El_tortuga.png" class="img-fluid rounded my-4" alt="El_tortuga">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold fs-4">El Tortuga</h5>
+                      <p class="card-text fs-5">Luego de nuestro primer encuentro
+                        nos reimos de todo lo que me demoré en darte un besito,
+                        incluso llegaste a pensar que no me habías gustado...
+                        No podrías haber estado más equivocda. Solamente fuí demasiado lento.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mx-4" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="assets/img/3.Amor.png" class="img-fluid rounded my-5" alt="Amor?">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold fs-4">Amor???</h5>
+                      <p class="card-text fs-5">Era un día como cualquiera, pero tu tenías frío.
+                        Yo intentando ser tierno te dije "Yo te doy calorcito amor" y tu te reiste :(</p>
+                      <p class="card-text fs-5">Mirando en retrospectiva ahora me imagino que en ese momento
+                        pusiste la misma cara de terror que cuando te dije que te quería jajaja.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="carousel-item">
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="card mx-4" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="assets/img/5.Bambi.png" class="img-fluid rounded" alt="Bambi">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold fs-4">Bambi</h5>
+                      <p class="card-text fs-5">Conversando al día siguiente de
+                        haber estado juntos me comentaste que te dolían mucho las piernas.
+                        Lo primero que se me vino a la cabeza  fue la imagen de ti caminando como Bambi jejeje.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mx-4" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="assets/img/6.Comodin.png" class="img-fluid rounded" alt="Comodin">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold fs-4">Comodín</h5>
+                      <p class="card-text fs-5">Para un partido de Chile vs Venezuela hicimos una apuesta.</p>
+                      <p class="card-text fs-5">El que ganaba podía pedir cualquier cosa y el otro no podía decir que no.</p>
+                      <p class="card-text fs-5">Aún no cobras ese comodín.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mx-4" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="assets/img/9.Rapto.png" class="img-fluid rounded my-4" alt="Rapto">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold fs-4">Rapto</h5>
+                      <p class="card-text fs-5">Un día se nos hizo tarde y te
+                        fuiste a tu casa en Uber, pero el conductor tomó una ruta
+                        muy extraña y tu ibas un poco asustada. El tipo solamente
+                        había tomado esa ruta para no pagar autopista, o al menos eso creo.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="carousel-item">
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="card mx-4" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="assets/img/10.Paparazzi.png" class="img-fluid rounded my-5" alt="Paparazzi">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold fs-4">Paparazzi</h5>
+                      <p class="card-text fs-5">Un día que te fui a ver a tu trabajo tuviste que atender porque había harta gente.</p>
+                      <p class="card-text fs-5">Justo en el momento que terminaste te saqué una foto sin que te dieras cuenta,
+                        con la cual queda clarisimo que como paparazzi soy muy buen programador XD.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mx-4" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="assets/img/11.Dibujante.png" class="img-fluid rounded" alt="Dibujante">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold fs-4">Dibujante</h5>
+                      <p class="card-text fs-5">Ultimamente para poder acompañarnos comenzamos a jugar en nuestros ratos libres.</p>
+                      <p class="card-text fs-5">Estos momentos se han convertido en algo muy divertido y
+                        en cierta forma nos mantiene unidos en la distancia.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mx-4" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="assets/img/12.Ni_ti_piquis.png" class="img-fluid rounded my-2" alt="Ni_ti_piquis">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold fs-4">Ni ti piquis</h5>
+                      <p class="card-text fs-5">Cuando jugamos no siempre sabemos perder, al parecer ambos somos un tanto competitivos.</p>
+                      <p class="card-text fs-5">Asi es como en algun momento te dije "No te piques amorcito",
+                        A lo que respondiste "Ni ti piquis imirciti".</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#blogCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#blogCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+<!--Fin Carousel-->
+
+    </section>
+
+    <section id="planes" class="container text-center py-5">
+      <h2 class="display-4 text-center fw-bold my-4">Sueños y Planes</h2>
+      <div class="row py-3">
+        <div class="col-md-4 px-3">
+          <i class="fa-solid fa-house fa-3x my-3"></i>
+          <h3 class="my-3 fw-bold">Vivir Juntos</h3>
+          <p class="my-3 fs-4">Tener tu compañía cada día, acostarnos abrazaditos,
+            despertar a tu lado, esperar tu llegada y recibirte con todo el amor del mundo, como te lo mereces</p>
+        </div>
+        <div class="col-md-4 px-3">
+          <i class="fa-solid fa-umbrella-beach fa-3x my-3"></i>
+          <h3 class="my-3 fw-bold">Viaje a la Playa</h3>
+          <p class="my-3 fs-4">Escaparnos un fin de semana largo a la playa para
+            poder desconectarnos del mundo y disfrutar de nuestra compañía, sin importar nada más</p>
+        </div>
+        <div class="col-md-4 px-3">
+          <i class="fa-solid fa-mountain-sun fa-3x my-3"></i>
+          <h3 class="my-3 fw-bold">Ir a Linares</h3>
+          <p class="my-3 fs-4">Algún día poder ir a que conozcas a mi familia,
+            comer cositas ricas y pasear por ese pueblo perdido jeje</p>
+        </div>
+      </div>
+      <div class="row py-3">
+        <div class="col-md-2 px-5">
+        </div>
+        <div class="col-md-4 px-5">
+          <i class="fa-solid fa-plane-departure fa-3x my-3"></i>
+          <h3 class="my-3 fw-bold">Ir a Venezuela</h3>
+          <p class="my-3 fs-4">Viajar a tu país, para que me lleves a conocer
+            tus lugares favoritos y poder conocer a tu familia</p>
+        </div>
+        <div class="col-md-4 px-5">
+          <i class="fa-solid fa-passport fa-3x my-3"></i>
+          <h3 class="my-3 fw-bold">Irnos de Latinoamérica</h3>
+          <p class="my-3 fs-4">Cumplir el sueño de escapar de esta prisión,
+            tomarnos de la mano e irnos muy lejos, para seguir siendo felices</p>
+        </div>
+        <div class="col-md-2 px-5">
+        </div>
+      </div>
+    </section>
+
+    <section id="leyenda" class="leyend mt-5 mb-0 py-5">
+      <div class="container pt-5">
+        <div class="row text-center fw-bold fs-3 py-5">
+
+          <h2 class="display-4 fw-bold">Leyenda del Hilo Rojo</h2>
+          <div class="col">
+          </div>
+           <div class="col-md-8 p-5 my-5">
+            <p>Cuenta una leyenda oriental que las personas destinadas a conocerse
+              tienen un hilo rojo atado a sus dedos. Este hilo nunca desaparece y
+              permanece constantemente atado, a pesar del tiempo y la distancia.
+              No importa lo que tardes en conocer a esa persona, ni importa el
+              tiempo que pases sin verla, ni siquiera importa si vives en la otra
+              punta del mundo: el hilo se estirará hasta el infinito, pero nunca se romperá.</p>
+          </div>
+          <div class="col">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-center text-light p-3">
+      <p><i class="fa-solid fa-heart fa-beat fa-2xl heart"></i> Eres el regalo más lindo que la vida me pudo dar.
+        Gracias por todo tu amor... Te quiero con el  corazón <i class="fa-solid fa-heart fa-beat fa-2xl heart"></i></p>
+    </footer>
+
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!--Popperjs 2.11.8-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <!--Bootstrapjs 5.3.2-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+  <!--Mi script-->
+  <script src="assets/js/script.js"></script>
+  </body>
+</html>
