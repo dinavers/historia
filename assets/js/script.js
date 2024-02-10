@@ -13,3 +13,7 @@ $(function(){
       });
     }
   });
+  $("nav button").click(function(){
+    $("#navbarNav").toggle(900);
+  });
+});
